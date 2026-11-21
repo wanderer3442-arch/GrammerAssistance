@@ -1,0 +1,36 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local app state
+app/dictionary.json
+app/_trainer_tmp/
+
+# Large / generated artifacts (models are tracked via Git LFS)
+124AD0030/
+_archive/
+model_smoke/
+model_round5/
+model_round5_gpu/
+colab/colab_bundle.zip
+colab/*.zip
+*.zip
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Secrets
+.streamlit/secrets.toml
+
+# Dev backups and scratch screenshots (not part of the submission)
+*.bak
+*.bak2
+*.bak3
+*.editorial
+/*.png
+.cloud-attachments/
+
+# local PDF build scaffolding
+.pdfbuild/

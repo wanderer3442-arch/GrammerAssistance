@@ -1,0 +1,247 @@
+"""Author ~200 targeted training pairs to fix the model's measured blind spots.
+
+Focus (from eval): wh-question inversion is the #1 gap (5.9% exact), then
+be-verb (60%) and articles (70%). These pairs are NEW — disjoint from the
+existing 300 and from the 60-pair test split — and deliberately diverse in
+subject/verb/wh-word so the model learns the *rule*, not a template.
+"""
+import csv
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+
+pairs = []
+
+# ---------------------------------------------------------------- wh inversion
+# wh + bare subject + verb  ->  wh + aux + subject + verb
+# Covers do/does/did, is/are/was/were, can/should/will, have/has.
+wh = [
+    ("What you want?", "What do you want?"),
+    ("Where they go?", "Where do they go?"),
+    ("Why we wait?", "Why do we wait?"),
+    ("When she arrive?", "When does she arrive?"),
+    ("How he fix it?", "How does he fix it?"),
+    ("Who you call?", "Who do you call?"),
+    ("Which bus come now?", "Which bus does come now?"),
+    ("What the teacher say?", "What does the teacher say?"),
+    ("Where your friend live?", "Where does your friend live?"),
+    ("Why the dog bark?", "Why does the dog bark?"),
+    ("When the shop open?", "When does the shop open?"),
+    ("How they solve it?", "How do they solve it?"),
+    ("Who she marry?", "Who does she marry?"),
+    ("What he want?", "What does he want?"),
+    ("Where she work?", "Where does she work?"),
+    ("Why it matter?", "Why does it matter?"),
+    ("When you leave?", "When do you leave?"),
+    ("How we start?", "How do we start?"),
+    ("Who they invite?", "Who do they invite?"),
+    ("What the machine need?", "What does the machine need?"),
+    ("Where the children play?", "Where do the children play?"),
+    ("Why you call me?", "Why do you call me?"),
+    ("When they finish?", "When do they finish?"),
+    ("How she learn so fast?", "How does she learn so fast?"),
+    ("Who he trust?", "Who does he trust?"),
+    ("What time it start?", "What time does it start?"),
+    ("Where he put the tools?", "Where does he put the tools?"),
+    ("Why she leave early?", "Why does she leave early?"),
+    ("When the train arrive?", "When does the train arrive?"),
+    ("How you know that?", "How do you know that?"),
+    # past tense: did
+    ("What you see yesterday?", "What did you see yesterday?"),
+    ("Where they go last week?", "Where did they go last week?"),
+    ("Why he call you?", "Why did he call you?"),
+    ("When she finish the test?", "When did she finish the test?"),
+    ("How you reach the station?", "How did you reach the station?"),
+    ("Who write this letter?", "Who did write this letter?"),
+    ("What time the movie start?", "What time did the movie start?"),
+    ("Where you park the car?", "Where did you park the car?"),
+    ("Why they cancel the trip?", "Why did they cancel the trip?"),
+    ("When he buy this phone?", "When did he buy this phone?"),
+    ("How she pass the exam?", "How did she pass the exam?"),
+    ("Who break the window?", "Who did break the window?"),
+    ("What she give you?", "What did she give you?"),
+    ("Where we meet yesterday?", "Where did we meet yesterday?"),
+    ("Why you ignore my call?", "Why did you ignore my call?"),
+    ("When the meeting end?", "When did the meeting end?"),
+    ("How they find the house?", "How did they find the house?"),
+    # be-verb inversion
+    ("What you doing?", "What are you doing?"),
+    ("Where they going?", "Where are they going?"),
+    ("Why she crying?", "Why is she crying?"),
+    ("When he coming?", "When is he coming?"),
+    ("How the weather today?", "How is the weather today?"),
+    ("Who at the door?", "Who is at the door?"),
+    ("What those people want?", "What do those people want?"),
+    ("Where the keys?", "Where are the keys?"),
+    ("Why the road close?", "Why is the road closed?"),
+    ("When the store opening?", "When is the store opening?"),
+    ("How you feeling today?", "How are you feeling today?"),
+    ("Who responsible for this?", "Who is responsible for this?"),
+    ("What the noise outside?", "What is the noise outside?"),
+    ("Where he going tomorrow?", "Where is he going tomorrow?"),
+    ("Why they late again?", "Why are they late again?"),
+    ("When the baby sleeping?", "When is the baby sleeping?"),
+    ("How the project progressing?", "How is the project progressing?"),
+    ("Who in charge here?", "Who is in charge here?"),
+    ("What you worried about?", "What are you worried about?"),
+    ("Where we supposed to wait?", "Where are we supposed to wait?"),
+    # modal inversion (can/should/will/must)
+    ("How you can sleep now?", "How can you sleep now?"),
+    ("Why he should come?", "Why should he come?"),
+    ("When we will know?", "When will we know?"),
+    ("Who can help me?", "Who can help me?"),
+    ("What I should do?", "What should I do?"),
+    ("Where we can park?", "Where can we park?"),
+    ("Why she must leave so soon?", "Why must she leave so soon?"),
+    ("When they will arrive?", "When will they arrive?"),
+    ("How can I improve this?", "How can I improve this?"),
+    ("Who will lead the team?", "Who will lead the team?"),
+    ("What can we expect?", "What can we expect?"),
+    ("Where should I put this?", "Where should I put this?"),
+    ("Why he can never focus?", "Why can he never focus?"),
+    ("When you will call back?", "When will you call back?"),
+    ("How should I answer this?", "How should I answer this?"),
+    # have/has inversion
+    ("What you have done?", "What have you done?"),
+    ("Where they have gone?", "Where have they gone?"),
+    ("Why he have not called?", "Why has he not called?"),
+    ("When she have finished?", "When has she finished?"),
+    ("How you have managed that?", "How have you managed that?"),
+    ("Who have you asked?", "Who have you asked?"),
+    ("What he has decided?", "What has he decided?"),
+    ("Where we have gone wrong?", "Where have we gone wrong?"),
+    ("Why they have not replied?", "Why have they not replied?"),
+    ("When the guests have arrived?", "When have the guests arrived?"),
+    ("How you have learned so much?", "How have you learned so much?"),
+    ("Who she has chosen?", "Who has she chosen?"),
+]
+
+# --------------------------------------------------------------------- be-verb
+be = [
+    ("She go to school every day.", "She goes to school every day."),
+    ("They is my best friends.", "They are my best friends."),
+    ("The milk are on the table.", "The milk is on the table."),
+    ("He are a good student.", "He is a good student."),
+    ("We was at home last night.", "We were at home last night."),
+    ("I is very tired today.", "I am very tired today."),
+    ("The dogs is running fast.", "The dogs are running fast."),
+    ("My mother work in a bank.", "My mother works in a bank."),
+    ("It are cold outside.", "It is cold outside."),
+    ("You is my brother.", "You are my brother."),
+    ("The children was hungry.", "The children were hungry."),
+    ("She not happy with the result.", "She is not happy with the result."),
+    ("He am coming with us.", "He is coming with us."),
+    ("The weather were terrible yesterday.", "The weather was terrible yesterday."),
+    ("These apples is fresh.", "These apples are fresh."),
+    ("My friends is here.", "My friends are here."),
+    ("The teacher were strict.", "The teacher was strict."),
+    ("I not at home right now.", "I am not at home right now."),
+    ("The car is need repair.", "The car needs repair."),
+    ("She go to the gym on Mondays.", "She goes to the gym on Mondays."),
+    ("The book are on the shelf.", "The book is on the shelf."),
+    ("We was happy to see you.", "We were happy to see you."),
+    ("He play football every weekend.", "He plays football every weekend."),
+    ("The birds is singing.", "The birds are singing."),
+    ("It were a long day.", "It was a long day."),
+    ("You not listening to me.", "You are not listening to me."),
+    ("My homework is already done.", "My homework is already done."),
+    ("The train were late again.", "The train was late again."),
+    ("She like coffee in the morning.", "She likes coffee in the morning."),
+    ("They was not ready.", "They were not ready."),
+]
+
+# -------------------------------------------------------------------- articles
+art = [
+    ("She is a honest woman.", "She is an honest woman."),
+    ("He bought a apple.", "He bought an apple."),
+    ("It was a easy task.", "It was an easy task."),
+    ("She is a excellent singer.", "She is an excellent singer."),
+    ("I ate a egg for breakfast.", "I ate an egg for breakfast."),
+    ("He is a university student.", "He is a university student."),
+    ("That was a unfair decision.", "That was an unfair decision."),
+    ("She has a hour to spare.", "She has an hour to spare."),
+    ("He waited at a bus stop.", "He waited at the bus stop."),
+    ("She go to a school near here.", "She goes to the school near here."),
+    ("I left my keys on a table.", "I left my keys on the table."),
+    ("He is a tallest boy in class.", "He is the tallest boy in class."),
+    ("She was first to arrive.", "She was the first to arrive."),
+    ("Moon is very bright tonight.", "The moon is very bright tonight."),
+    ("She is best player on the team.", "She is the best player on the team."),
+    ("I need to lock a door.", "I need to lock the door."),
+    ("He plays a guitar very well.", "He plays the guitar very well."),
+    ("She is a most kind person.", "She is the most kind person."),
+    ("Please close a window.", "Please close the window."),
+    ("He is a owner of this shop.", "He is the owner of this shop."),
+    ("Sun rises in the east.", "The sun rises in the east."),
+    ("She was a winner of the contest.", "She was the winner of the contest."),
+    ("I saw a elephant at the zoo.", "I saw an elephant at the zoo."),
+    ("He is a honest politician.", "He is an honest politician."),
+    ("She gave me a advice.", "She gave me advice."),
+    ("They are a best team.", "They are the best team."),
+    ("He is a older than me.", "He is older than me."),
+    ("She go to bed early.", "She goes to bed early."),
+    ("I need a information about the course.", "I need information about the course."),
+    ("He is a only child.", "He is an only child."),
+]
+
+# ------------------------------------------------------- misc agreement fill
+misc = [
+    ("The team are playing well.", "The team is playing well."),
+    ("He don't know the answer.", "He doesn't know the answer."),
+    ("She don't like spicy food.", "She doesn't like spicy food."),
+    ("They doesn't go there often.", "They don't go there often."),
+    ("I has a new phone.", "I have a new phone."),
+    ("She have a beautiful garden.", "She has a beautiful garden."),
+    ("The information are correct.", "The information is correct."),
+    ("He can to swim very well.", "He can swim very well."),
+    ("She must to leave now.", "She must leave now."),
+    ("We should to wait here.", "We should wait here."),
+    ("The news are surprising.", "The news is surprising."),
+    ("He go to work by bus.", "He goes to work by bus."),
+    ("My father watch TV every night.", "My father watches TV every night."),
+    ("She study English every day.", "She studies English every day."),
+    ("It don't matter.", "It doesn't matter."),
+    ("The group of students are here.", "The group of students is here."),
+    ("He didn't went to school yesterday.", "He didn't go to school yesterday."),
+    ("She didn't ate lunch.", "She didn't eat lunch."),
+    ("We didn't saw the movie.", "We didn't see the movie."),
+    ("They didn't came on time.", "They didn't come on time."),
+]
+
+pairs.extend(wh)
+pairs.extend(be)
+pairs.extend(art)
+pairs.extend(misc)
+
+# de-dup within this file and against existing train pool + test split
+seen = set()
+existing = set()
+pool = ROOT / "data" / "train_pool.csv"
+if pool.exists():
+    for r in csv.DictReader(open(pool, encoding="utf-8")):
+        existing.add((r["input"].strip(), r["target"].strip()))
+testp = ROOT / "eval" / "test_split.csv"
+if testp.exists():
+    for r in csv.DictReader(open(testp, encoding="utf-8")):
+        existing.add((r["input"].strip(), r["target"].strip()))
+
+clean = []
+for s, t in pairs:
+    key = (s.strip(), t.strip())
+    if key in seen or key in existing:
+        continue
+    seen.add(key)
+    clean.append({"input": s, "target": t})
+
+out = ROOT / "data" / "targeted_pairs.csv"
+with open(out, "w", newline="", encoding="utf-8") as f:
+    w = csv.DictWriter(f, fieldnames=["input", "target"])
+    w.writeheader()
+    w.writerows(clean)
+
+print(f"authored {len(pairs)} pairs -> {len(clean)} after de-dup/overlap removal")
+print(f"  wh-question : {len(wh)}")
+print(f"  be-verb     : {len(be)}")
+print(f"  articles    : {len(art)}")
+print(f"  misc        : {len(misc)}")
+print(f"written to {out}")

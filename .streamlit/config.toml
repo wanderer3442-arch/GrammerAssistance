@@ -1,0 +1,17 @@
+# Streamlit theme for the Offline Writing Assistant.
+#
+# The Draft Room: a petrol canvas, a cool manuscript page, and a single
+# verdigris signal. No black and no metallic tones. Pinning the theme here keeps
+# Streamlit's own widgets (selectbox, slider, toggle, segmented control) on the
+# same accent as the custom stylesheet.
+
+[theme]
+base = "dark"
+primaryColor = "#5fc7ad"
+backgroundColor = "#10252d"
+secondaryBackgroundColor = "#16313a"
+textColor = "#e9f2ef"
+font = "sans serif"
+
+[server]
+headless = true
