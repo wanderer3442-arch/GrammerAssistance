@@ -2,6 +2,10 @@
 # Install: uv pip install --python .venv -r app/requirements.txt
 # CPU-only torch -- install separately first:
 #   uv pip install --python .venv torch --index-url https://download.pytorch.org/whl/cpu
+#
+# The extra index below lets a plain `pip install -r app/requirements.txt`
+# (and Streamlit Community Cloud) resolve the CPU-only torch wheel too.
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.14.1+cpu
 transformers==5.19.0
 accelerate==1.15.0
