@@ -1,0 +1,1202 @@
+[
+  {
+    "input":"My brother work near the college.",
+    "target":"My brother works near the college."
+  },
+  {
+    "input":"My brother live near the college.",
+    "target":"My brother lives near the college."
+  },
+  {
+    "input":"My brother speak near the college.",
+    "target":"My brother speaks near the college."
+  },
+  {
+    "input":"My brother need near the college.",
+    "target":"My brother needs near the college."
+  },
+  {
+    "input":"My brother play near the college.",
+    "target":"My brother plays near the college."
+  },
+  {
+    "input":"The teacher work near the college.",
+    "target":"The teacher works near the college."
+  },
+  {
+    "input":"The teacher live near the college.",
+    "target":"The teacher lives near the college."
+  },
+  {
+    "input":"The teacher speak near the college.",
+    "target":"The teacher speaks near the college."
+  },
+  {
+    "input":"The teacher need near the college.",
+    "target":"The teacher needs near the college."
+  },
+  {
+    "input":"The teacher play near the college.",
+    "target":"The teacher plays near the college."
+  },
+  {
+    "input":"She work near the college.",
+    "target":"She works near the college."
+  },
+  {
+    "input":"She live near the college.",
+    "target":"She lives near the college."
+  },
+  {
+    "input":"She speak near the college.",
+    "target":"She speaks near the college."
+  },
+  {
+    "input":"She need near the college.",
+    "target":"She needs near the college."
+  },
+  {
+    "input":"She play near the college.",
+    "target":"She plays near the college."
+  },
+  {
+    "input":"He work near the college.",
+    "target":"He works near the college."
+  },
+  {
+    "input":"He live near the college.",
+    "target":"He lives near the college."
+  },
+  {
+    "input":"He speak near the college.",
+    "target":"He speaks near the college."
+  },
+  {
+    "input":"He need near the college.",
+    "target":"He needs near the college."
+  },
+  {
+    "input":"He play near the college.",
+    "target":"He plays near the college."
+  },
+  {
+    "input":"Our manager work near the college.",
+    "target":"Our manager works near the college."
+  },
+  {
+    "input":"Our manager live near the college.",
+    "target":"Our manager lives near the college."
+  },
+  {
+    "input":"Our manager speak near the college.",
+    "target":"Our manager speaks near the college."
+  },
+  {
+    "input":"Our manager need near the college.",
+    "target":"Our manager needs near the college."
+  },
+  {
+    "input":"Our manager play near the college.",
+    "target":"Our manager plays near the college."
+  },
+  {
+    "input":"The dog work near the college.",
+    "target":"The dog works near the college."
+  },
+  {
+    "input":"The dog live near the college.",
+    "target":"The dog lives near the college."
+  },
+  {
+    "input":"The dog speak near the college.",
+    "target":"The dog speaks near the college."
+  },
+  {
+    "input":"The dog need near the college.",
+    "target":"The dog needs near the college."
+  },
+  {
+    "input":"The dog play near the college.",
+    "target":"The dog plays near the college."
+  },
+  {
+    "input":"My brothers works near the college.",
+    "target":"My brothers work near the college."
+  },
+  {
+    "input":"My brothers lives near the college.",
+    "target":"My brothers live near the college."
+  },
+  {
+    "input":"My brothers speaks near the college.",
+    "target":"My brothers speak near the college."
+  },
+  {
+    "input":"My brothers needs near the college.",
+    "target":"My brothers need near the college."
+  },
+  {
+    "input":"My brothers plays near the college.",
+    "target":"My brothers play near the college."
+  },
+  {
+    "input":"The teachers works near the college.",
+    "target":"The teachers work near the college."
+  },
+  {
+    "input":"The teachers lives near the college.",
+    "target":"The teachers live near the college."
+  },
+  {
+    "input":"The teachers speaks near the college.",
+    "target":"The teachers speak near the college."
+  },
+  {
+    "input":"The teachers needs near the college.",
+    "target":"The teachers need near the college."
+  },
+  {
+    "input":"The teachers plays near the college.",
+    "target":"The teachers play near the college."
+  },
+  {
+    "input":"They works near the college.",
+    "target":"They work near the college."
+  },
+  {
+    "input":"They lives near the college.",
+    "target":"They live near the college."
+  },
+  {
+    "input":"They speaks near the college.",
+    "target":"They speak near the college."
+  },
+  {
+    "input":"They needs near the college.",
+    "target":"They need near the college."
+  },
+  {
+    "input":"They plays near the college.",
+    "target":"They play near the college."
+  },
+  {
+    "input":"We works near the college.",
+    "target":"We work near the college."
+  },
+  {
+    "input":"We lives near the college.",
+    "target":"We live near the college."
+  },
+  {
+    "input":"We speaks near the college.",
+    "target":"We speak near the college."
+  },
+  {
+    "input":"We needs near the college.",
+    "target":"We need near the college."
+  },
+  {
+    "input":"We plays near the college.",
+    "target":"We play near the college."
+  },
+  {
+    "input":"Our managers works near the college.",
+    "target":"Our managers work near the college."
+  },
+  {
+    "input":"Our managers lives near the college.",
+    "target":"Our managers live near the college."
+  },
+  {
+    "input":"Our managers speaks near the college.",
+    "target":"Our managers speak near the college."
+  },
+  {
+    "input":"Our managers needs near the college.",
+    "target":"Our managers need near the college."
+  },
+  {
+    "input":"Our managers plays near the college.",
+    "target":"Our managers play near the college."
+  },
+  {
+    "input":"The dogs works near the college.",
+    "target":"The dogs work near the college."
+  },
+  {
+    "input":"The dogs lives near the college.",
+    "target":"The dogs live near the college."
+  },
+  {
+    "input":"The dogs speaks near the college.",
+    "target":"The dogs speak near the college."
+  },
+  {
+    "input":"The dogs needs near the college.",
+    "target":"The dogs need near the college."
+  },
+  {
+    "input":"The dogs plays near the college.",
+    "target":"The dogs play near the college."
+  },
+  {
+    "input":"Yesterday, I go to the library.",
+    "target":"Yesterday, I went to the library."
+  },
+  {
+    "input":"Yesterday, She go to the market.",
+    "target":"Yesterday, She went to the market."
+  },
+  {
+    "input":"Yesterday, They see a bird.",
+    "target":"Yesterday, They saw a bird."
+  },
+  {
+    "input":"Yesterday, He eat lunch.",
+    "target":"Yesterday, He ate lunch."
+  },
+  {
+    "input":"Yesterday, We take the bus.",
+    "target":"Yesterday, We took the bus."
+  },
+  {
+    "input":"Yesterday, I write a letter.",
+    "target":"Yesterday, I wrote a letter."
+  },
+  {
+    "input":"Yesterday, She buy a notebook.",
+    "target":"Yesterday, She bought a notebook."
+  },
+  {
+    "input":"Yesterday, They come home.",
+    "target":"Yesterday, They came home."
+  },
+  {
+    "input":"Yesterday, He make a cake.",
+    "target":"Yesterday, He made a cake."
+  },
+  {
+    "input":"Yesterday, We find the keys.",
+    "target":"Yesterday, We found the keys."
+  },
+  {
+    "input":"Yesterday, I meet my friend.",
+    "target":"Yesterday, I met my friend."
+  },
+  {
+    "input":"Yesterday, She speak to the teacher.",
+    "target":"Yesterday, She spoke to the teacher."
+  },
+  {
+    "input":"Yesterday, They begin the meeting.",
+    "target":"Yesterday, They began the meeting."
+  },
+  {
+    "input":"Yesterday, He drive to work.",
+    "target":"Yesterday, He drove to work."
+  },
+  {
+    "input":"Yesterday, We choose the blue one.",
+    "target":"Yesterday, We chose the blue one."
+  },
+  {
+    "input":"Yesterday, I drink some water.",
+    "target":"Yesterday, I drank some water."
+  },
+  {
+    "input":"Yesterday, She give me a book.",
+    "target":"Yesterday, She gave me a book."
+  },
+  {
+    "input":"Yesterday, They leave early.",
+    "target":"Yesterday, They left early."
+  },
+  {
+    "input":"Yesterday, He know the answer.",
+    "target":"Yesterday, He knew the answer."
+  },
+  {
+    "input":"Yesterday, We run in the park.",
+    "target":"Yesterday, We ran in the park."
+  },
+  {
+    "input":"Yesterday, I tell the truth.",
+    "target":"Yesterday, I told the truth."
+  },
+  {
+    "input":"Yesterday, She wear a red dress.",
+    "target":"Yesterday, She wore a red dress."
+  },
+  {
+    "input":"Yesterday, They build a small house.",
+    "target":"Yesterday, They built a small house."
+  },
+  {
+    "input":"Yesterday, He catch the ball.",
+    "target":"Yesterday, He caught the ball."
+  },
+  {
+    "input":"Yesterday, We feel happy.",
+    "target":"Yesterday, We felt happy."
+  },
+  {
+    "input":"Yesterday, I hear a noise.",
+    "target":"Yesterday, I heard a noise."
+  },
+  {
+    "input":"Yesterday, She keep the receipt.",
+    "target":"Yesterday, She kept the receipt."
+  },
+  {
+    "input":"Yesterday, They send an email.",
+    "target":"Yesterday, They sent an email."
+  },
+  {
+    "input":"Yesterday, He teach the class.",
+    "target":"Yesterday, He taught the class."
+  },
+  {
+    "input":"Yesterday, We win the game.",
+    "target":"Yesterday, We won the game."
+  },
+  {
+    "input":"I have went home.",
+    "target":"I have gone home."
+  },
+  {
+    "input":"She has saw the film.",
+    "target":"She has seen the film."
+  },
+  {
+    "input":"They have ate dinner.",
+    "target":"They have eaten dinner."
+  },
+  {
+    "input":"He has wrote a report.",
+    "target":"He has written a report."
+  },
+  {
+    "input":"We have took the test.",
+    "target":"We have taken the test."
+  },
+  {
+    "input":"I have did my homework.",
+    "target":"I have done my homework."
+  },
+  {
+    "input":"She has broke the glass.",
+    "target":"She has broken the glass."
+  },
+  {
+    "input":"They have spoke to us.",
+    "target":"They have spoken to us."
+  },
+  {
+    "input":"He has chose a topic.",
+    "target":"He has chosen a topic."
+  },
+  {
+    "input":"We have gave our answers.",
+    "target":"We have given our answers."
+  },
+  {
+    "input":"I have drank enough water.",
+    "target":"I have drunk enough water."
+  },
+  {
+    "input":"She has began the lesson.",
+    "target":"She has begun the lesson."
+  },
+  {
+    "input":"They have came back.",
+    "target":"They have come back."
+  },
+  {
+    "input":"He has forgot the name.",
+    "target":"He has forgotten the name."
+  },
+  {
+    "input":"We have knew the truth.",
+    "target":"We have known the truth."
+  },
+  {
+    "input":"I have ran five kilometres.",
+    "target":"I have run five kilometres."
+  },
+  {
+    "input":"She has rode a horse.",
+    "target":"She has ridden a horse."
+  },
+  {
+    "input":"They have sang the song.",
+    "target":"They have sung the song."
+  },
+  {
+    "input":"He has threw the ball.",
+    "target":"He has thrown the ball."
+  },
+  {
+    "input":"We have wore those uniforms.",
+    "target":"We have worn those uniforms."
+  },
+  {
+    "input":"I have saw that place.",
+    "target":"I have seen that place."
+  },
+  {
+    "input":"She has took my pen.",
+    "target":"She has taken my pen."
+  },
+  {
+    "input":"They have wrote the answers.",
+    "target":"They have written the answers."
+  },
+  {
+    "input":"He has ate breakfast.",
+    "target":"He has eaten breakfast."
+  },
+  {
+    "input":"We have went there before.",
+    "target":"We have gone there before."
+  },
+  {
+    "input":"I have broke my glasses.",
+    "target":"I have broken my glasses."
+  },
+  {
+    "input":"She has gave a speech.",
+    "target":"She has given a speech."
+  },
+  {
+    "input":"They have did the work.",
+    "target":"They have done the work."
+  },
+  {
+    "input":"He has spoke clearly.",
+    "target":"He has spoken clearly."
+  },
+  {
+    "input":"We have chose our seats.",
+    "target":"We have chosen our seats."
+  },
+  {
+    "input":"I can to swim.",
+    "target":"I can swim."
+  },
+  {
+    "input":"I can to drive.",
+    "target":"I can drive."
+  },
+  {
+    "input":"I can to cook.",
+    "target":"I can cook."
+  },
+  {
+    "input":"You can to swim.",
+    "target":"You can swim."
+  },
+  {
+    "input":"You can to drive.",
+    "target":"You can drive."
+  },
+  {
+    "input":"You can to cook.",
+    "target":"You can cook."
+  },
+  {
+    "input":"He can to swim.",
+    "target":"He can swim."
+  },
+  {
+    "input":"He can to drive.",
+    "target":"He can drive."
+  },
+  {
+    "input":"He can to cook.",
+    "target":"He can cook."
+  },
+  {
+    "input":"She can to swim.",
+    "target":"She can swim."
+  },
+  {
+    "input":"She can to drive.",
+    "target":"She can drive."
+  },
+  {
+    "input":"She can to cook.",
+    "target":"She can cook."
+  },
+  {
+    "input":"We can to swim.",
+    "target":"We can swim."
+  },
+  {
+    "input":"We can to drive.",
+    "target":"We can drive."
+  },
+  {
+    "input":"We can to cook.",
+    "target":"We can cook."
+  },
+  {
+    "input":"They can to swim.",
+    "target":"They can swim."
+  },
+  {
+    "input":"They can to drive.",
+    "target":"They can drive."
+  },
+  {
+    "input":"They can to cook.",
+    "target":"They can cook."
+  },
+  {
+    "input":"My brother can to swim.",
+    "target":"My brother can swim."
+  },
+  {
+    "input":"My brother can to drive.",
+    "target":"My brother can drive."
+  },
+  {
+    "input":"My brother can to cook.",
+    "target":"My brother can cook."
+  },
+  {
+    "input":"The student can to swim.",
+    "target":"The student can swim."
+  },
+  {
+    "input":"The student can to drive.",
+    "target":"The student can drive."
+  },
+  {
+    "input":"The student can to cook.",
+    "target":"The student can cook."
+  },
+  {
+    "input":"Our neighbours can to swim.",
+    "target":"Our neighbours can swim."
+  },
+  {
+    "input":"Our neighbours can to drive.",
+    "target":"Our neighbours can drive."
+  },
+  {
+    "input":"Our neighbours can to cook.",
+    "target":"Our neighbours can cook."
+  },
+  {
+    "input":"The driver can to swim.",
+    "target":"The driver can swim."
+  },
+  {
+    "input":"The driver can to drive.",
+    "target":"The driver can drive."
+  },
+  {
+    "input":"The driver can to cook.",
+    "target":"The driver can cook."
+  },
+  {
+    "input":"She is a honest person.",
+    "target":"She is an honest person."
+  },
+  {
+    "input":"She is a excellent student.",
+    "target":"She is an excellent student."
+  },
+  {
+    "input":"She is a interesting book.",
+    "target":"She is an interesting book."
+  },
+  {
+    "input":"She is a old building.",
+    "target":"She is an old building."
+  },
+  {
+    "input":"She is a important meeting.",
+    "target":"She is an important meeting."
+  },
+  {
+    "input":"She is a expensive phone.",
+    "target":"She is an expensive phone."
+  },
+  {
+    "input":"She is a unusual event.",
+    "target":"She is an unusual event."
+  },
+  {
+    "input":"She is a easy question.",
+    "target":"She is an easy question."
+  },
+  {
+    "input":"She is a intelligent child.",
+    "target":"She is an intelligent child."
+  },
+  {
+    "input":"She is a empty room.",
+    "target":"She is an empty room."
+  },
+  {
+    "input":"She is a orange umbrella.",
+    "target":"She is an orange umbrella."
+  },
+  {
+    "input":"She is a active member.",
+    "target":"She is an active member."
+  },
+  {
+    "input":"She is a early train.",
+    "target":"She is an early train."
+  },
+  {
+    "input":"She is a amazing story.",
+    "target":"She is an amazing story."
+  },
+  {
+    "input":"She is a official document.",
+    "target":"She is an official document."
+  },
+  {
+    "input":"She is an useful tool.",
+    "target":"She is a useful tool."
+  },
+  {
+    "input":"She is an university student.",
+    "target":"She is a university student."
+  },
+  {
+    "input":"She is an European country.",
+    "target":"She is a European country."
+  },
+  {
+    "input":"She is an one-day trip.",
+    "target":"She is a one-day trip."
+  },
+  {
+    "input":"She is an unique idea.",
+    "target":"She is a unique idea."
+  },
+  {
+    "input":"She is an uniform.",
+    "target":"She is a uniform."
+  },
+  {
+    "input":"She is an user account.",
+    "target":"She is a user account."
+  },
+  {
+    "input":"She is an yellow bag.",
+    "target":"She is a yellow bag."
+  },
+  {
+    "input":"She is an small house.",
+    "target":"She is a small house."
+  },
+  {
+    "input":"She is an beautiful painting.",
+    "target":"She is a beautiful painting."
+  },
+  {
+    "input":"She is an computer.",
+    "target":"She is a computer."
+  },
+  {
+    "input":"She is an helpful suggestion.",
+    "target":"She is a helpful suggestion."
+  },
+  {
+    "input":"She is an red apple.",
+    "target":"She is a red apple."
+  },
+  {
+    "input":"She is an large garden.",
+    "target":"She is a large garden."
+  },
+  {
+    "input":"She is an new notebook.",
+    "target":"She is a new notebook."
+  },
+  {
+    "input":"Where you live?",
+    "target":"Where do you live?"
+  },
+  {
+    "input":"What she wants?",
+    "target":"What does she want?"
+  },
+  {
+    "input":"When they arrive?",
+    "target":"When do they arrive?"
+  },
+  {
+    "input":"Why he works here?",
+    "target":"Why does he work here?"
+  },
+  {
+    "input":"Where we should wait?",
+    "target":"Where should we wait?"
+  },
+  {
+    "input":"What you are doing?",
+    "target":"What are you doing?"
+  },
+  {
+    "input":"Why she is crying?",
+    "target":"Why is she crying?"
+  },
+  {
+    "input":"Where they are going?",
+    "target":"Where are they going?"
+  },
+  {
+    "input":"When he did arrive?",
+    "target":"When did he arrive?"
+  },
+  {
+    "input":"What she did buy?",
+    "target":"What did she buy?"
+  },
+  {
+    "input":"Where your parents live?",
+    "target":"Where do your parents live?"
+  },
+  {
+    "input":"Why the machine stops?",
+    "target":"Why does the machine stop?"
+  },
+  {
+    "input":"When the class begins?",
+    "target":"When does the class begin?"
+  },
+  {
+    "input":"How you solved it?",
+    "target":"How did you solve it?"
+  },
+  {
+    "input":"Where he put the keys?",
+    "target":"Where did he put the keys?"
+  },
+  {
+    "input":"What they have decided?",
+    "target":"What have they decided?"
+  },
+  {
+    "input":"Why you were late?",
+    "target":"Why were you late?"
+  },
+  {
+    "input":"Where the children are playing?",
+    "target":"Where are the children playing?"
+  },
+  {
+    "input":"How she can solve this?",
+    "target":"How can she solve this?"
+  },
+  {
+    "input":"What he is reading?",
+    "target":"What is he reading?"
+  },
+  {
+    "input":"When we can start?",
+    "target":"When can we start?"
+  },
+  {
+    "input":"Why they were laughing?",
+    "target":"Why were they laughing?"
+  },
+  {
+    "input":"Where she has gone?",
+    "target":"Where has she gone?"
+  },
+  {
+    "input":"What your friend said?",
+    "target":"What did your friend say?"
+  },
+  {
+    "input":"How this device works?",
+    "target":"How does this device work?"
+  },
+  {
+    "input":"When the train will arrive?",
+    "target":"When will the train arrive?"
+  },
+  {
+    "input":"Why he does look tired?",
+    "target":"Why does he look tired?"
+  },
+  {
+    "input":"Where I should sign?",
+    "target":"Where should I sign?"
+  },
+  {
+    "input":"What the teacher explained?",
+    "target":"What did the teacher explain?"
+  },
+  {
+    "input":"How they can improve?",
+    "target":"How can they improve?"
+  },
+  {
+    "input":"She is interested on art.",
+    "target":"She is interested in art."
+  },
+  {
+    "input":"He is good in mathematics.",
+    "target":"He is good at mathematics."
+  },
+  {
+    "input":"We arrived to the station early.",
+    "target":"We arrived at the station early."
+  },
+  {
+    "input":"I went to home after class.",
+    "target":"I went home after class."
+  },
+  {
+    "input":"She depends of her parents.",
+    "target":"She depends on her parents."
+  },
+  {
+    "input":"He is afraid from dogs.",
+    "target":"He is afraid of dogs."
+  },
+  {
+    "input":"I am waiting you.",
+    "target":"I am waiting for you."
+  },
+  {
+    "input":"They discussed about the problem.",
+    "target":"They discussed the problem."
+  },
+  {
+    "input":"She married with a doctor.",
+    "target":"She married a doctor."
+  },
+  {
+    "input":"He entered into the room.",
+    "target":"He entered the room."
+  },
+  {
+    "input":"We reached to the hotel.",
+    "target":"We reached the hotel."
+  },
+  {
+    "input":"I prefer tea than coffee.",
+    "target":"I prefer tea to coffee."
+  },
+  {
+    "input":"She is responsible of the project.",
+    "target":"She is responsible for the project."
+  },
+  {
+    "input":"He apologized me for the mistake.",
+    "target":"He apologized to me for the mistake."
+  },
+  {
+    "input":"They are looking the keys.",
+    "target":"They are looking for the keys."
+  },
+  {
+    "input":"I agree to your opinion.",
+    "target":"I agree with your opinion."
+  },
+  {
+    "input":"She is capable to solve it.",
+    "target":"She is capable of solving it."
+  },
+  {
+    "input":"He succeeded to pass the exam.",
+    "target":"He succeeded in passing the exam."
+  },
+  {
+    "input":"We arrived in the bus stop.",
+    "target":"We arrived at the bus stop."
+  },
+  {
+    "input":"She is married with him.",
+    "target":"She is married to him."
+  },
+  {
+    "input":"I am fond for music.",
+    "target":"I am fond of music."
+  },
+  {
+    "input":"He complained for the noise.",
+    "target":"He complained about the noise."
+  },
+  {
+    "input":"They are different than us.",
+    "target":"They are different from us."
+  },
+  {
+    "input":"She is keen in learning.",
+    "target":"She is keen on learning."
+  },
+  {
+    "input":"We talked regarding about the plan.",
+    "target":"We talked about the plan."
+  },
+  {
+    "input":"He is suffering with a cold.",
+    "target":"He is suffering from a cold."
+  },
+  {
+    "input":"I congratulated her for her success.",
+    "target":"I congratulated her on her success."
+  },
+  {
+    "input":"She insisted to pay.",
+    "target":"She insisted on paying."
+  },
+  {
+    "input":"He is familiar to this process.",
+    "target":"He is familiar with this process."
+  },
+  {
+    "input":"They prevented him to leave.",
+    "target":"They prevented him from leaving."
+  },
+  {
+    "input":"She speaks English very well.",
+    "target":"She speaks English very well."
+  },
+  {
+    "input":"I completely disagree with this decision.",
+    "target":"I completely disagree with this decision."
+  },
+  {
+    "input":"The weather is pleasant today.",
+    "target":"The weather is pleasant today."
+  },
+  {
+    "input":"She knows the answer.",
+    "target":"She knows the answer."
+  },
+  {
+    "input":"I am interested in learning English.",
+    "target":"I am interested in learning English."
+  },
+  {
+    "input":"They arrived early for the meeting.",
+    "target":"They arrived early for the meeting."
+  },
+  {
+    "input":"My sister enjoys reading novels.",
+    "target":"My sister enjoys reading novels."
+  },
+  {
+    "input":"We have finished our homework.",
+    "target":"We have finished our homework."
+  },
+  {
+    "input":"The children are playing outside.",
+    "target":"The children are playing outside."
+  },
+  {
+    "input":"He usually drinks coffee in the morning.",
+    "target":"He usually drinks coffee in the morning."
+  },
+  {
+    "input":"I agree with your suggestion.",
+    "target":"I agree with your suggestion."
+  },
+  {
+    "input":"The library closes at six o'clock.",
+    "target":"The library closes at six o'clock."
+  },
+  {
+    "input":"Our team won the final match.",
+    "target":"Our team won the final match."
+  },
+  {
+    "input":"She has been working here for two years.",
+    "target":"She has been working here for two years."
+  },
+  {
+    "input":"The train arrived on time.",
+    "target":"The train arrived on time."
+  },
+  {
+    "input":"I will call you tomorrow.",
+    "target":"I will call you tomorrow."
+  },
+  {
+    "input":"They live in a small apartment.",
+    "target":"They live in a small apartment."
+  },
+  {
+    "input":"He carefully opened the package.",
+    "target":"He carefully opened the package."
+  },
+  {
+    "input":"We enjoyed the concert last night.",
+    "target":"We enjoyed the concert last night."
+  },
+  {
+    "input":"The book belongs to my friend.",
+    "target":"The book belongs to my friend."
+  },
+  {
+    "input":"Please close the window.",
+    "target":"Please close the window."
+  },
+  {
+    "input":"My parents are visiting us this weekend.",
+    "target":"My parents are visiting us this weekend."
+  },
+  {
+    "input":"The students completed the assignment.",
+    "target":"The students completed the assignment."
+  },
+  {
+    "input":"I have never visited that city.",
+    "target":"I have never visited that city."
+  },
+  {
+    "input":"She can speak three languages.",
+    "target":"She can speak three languages."
+  },
+  {
+    "input":"We were happy with the result.",
+    "target":"We were happy with the result."
+  },
+  {
+    "input":"He bought a new laptop yesterday.",
+    "target":"He bought a new laptop yesterday."
+  },
+  {
+    "input":"The coffee tastes delicious.",
+    "target":"The coffee tastes delicious."
+  },
+  {
+    "input":"They are planning a holiday.",
+    "target":"They are planning a holiday."
+  },
+  {
+    "input":"I left my keys on the table.",
+    "target":"I left my keys on the table."
+  },
+  {
+    "input":"The baby is sleeping peacefully.",
+    "target":"The baby is sleeping peacefully."
+  },
+  {
+    "input":"She wrote a letter to her cousin.",
+    "target":"She wrote a letter to her cousin."
+  },
+  {
+    "input":"We need more time to finish.",
+    "target":"We need more time to finish."
+  },
+  {
+    "input":"The museum opens at nine.",
+    "target":"The museum opens at nine."
+  },
+  {
+    "input":"He has already eaten lunch.",
+    "target":"He has already eaten lunch."
+  },
+  {
+    "input":"I would like a glass of water.",
+    "target":"I would like a glass of water."
+  },
+  {
+    "input":"The meeting starts in ten minutes.",
+    "target":"The meeting starts in ten minutes."
+  },
+  {
+    "input":"Our teacher explained the lesson clearly.",
+    "target":"Our teacher explained the lesson clearly."
+  },
+  {
+    "input":"She gave me a useful suggestion.",
+    "target":"She gave me a useful suggestion."
+  },
+  {
+    "input":"They have taken the wrong bus.",
+    "target":"They have taken the wrong bus."
+  },
+  {
+    "input":"I know what you mean.",
+    "target":"I know what you mean."
+  },
+  {
+    "input":"The garden looks beautiful in spring.",
+    "target":"The garden looks beautiful in spring."
+  },
+  {
+    "input":"He did not understand the question.",
+    "target":"He did not understand the question."
+  },
+  {
+    "input":"We have seen that movie before.",
+    "target":"We have seen that movie before."
+  },
+  {
+    "input":"The road was closed because of rain.",
+    "target":"The road was closed because of rain."
+  },
+  {
+    "input":"She is good at mathematics.",
+    "target":"She is good at mathematics."
+  },
+  {
+    "input":"Where are you going?",
+    "target":"Where are you going?"
+  },
+  {
+    "input":"What are you doing now?",
+    "target":"What are you doing now?"
+  },
+  {
+    "input":"Why is she crying?",
+    "target":"Why is she crying?"
+  },
+  {
+    "input":"The manager works on Fridays.",
+    "target":"The manager works on Fridays."
+  },
+  {
+    "input":"These machines make too much noise.",
+    "target":"These machines make too much noise."
+  },
+  {
+    "input":"He went home after class.",
+    "target":"He went home after class."
+  },
+  {
+    "input":"She is an honest person.",
+    "target":"She is an honest person."
+  },
+  {
+    "input":"It was a one-day trip.",
+    "target":"It was a one-day trip."
+  },
+  {
+    "input":"They understand the instructions.",
+    "target":"They understand the instructions."
+  },
+  {
+    "input":"I have eaten breakfast already.",
+    "target":"I have eaten breakfast already."
+  },
+  {
+    "input":"He can drive a car.",
+    "target":"He can drive a car."
+  },
+  {
+    "input":"We did not go there.",
+    "target":"We did not go there."
+  },
+  {
+    "input":"My friend lives near the college.",
+    "target":"My friend lives near the college."
+  },
+  {
+    "input":"I believe you.",
+    "target":"I believe you."
+  }
+]

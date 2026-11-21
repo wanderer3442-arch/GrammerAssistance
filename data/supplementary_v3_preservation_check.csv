@@ -1,0 +1,16 @@
+input,expected,prediction,exact_match
+She is know the answer.,She knows the answer.,She knows the answer.,True
+I am agree with you.,I agree with you.,I agree with you.,True
+They are understand the problem.,They understand the problem.,They understand the problem.,True
+I am believe you.,I believe you.,I believe you.,True
+She does not likes coffee.,She does not like coffee.,She does not like coffee.,True
+He can to drive a car.,He can drive a car.,He can drive a car.,True
+They was happy yesterday.,They were happy yesterday.,They were happy yesterday.,True
+I have saw that movie.,I have seen that movie.,I have seen that movie.,True
+We did not went there.,We did not go there.,We did not go there.,True
+My friend live near the college.,My friend lives near the college.,My friend lives near the college.,True
+She speaks English very well.,She speaks English very well.,She speaks English very well.,True
+I completely disagree with this decision.,I completely disagree with this decision.,I completely disagree with this decision.,True
+The weather is pleasant today.,The weather is pleasant today.,The weather is pleasant today.,True
+She knows the answer.,She knows the answer.,She knows the answer.,True
+I am interested in learning English.,I am interested in learning English.,I am interested in learning English.,True

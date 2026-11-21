@@ -1,0 +1,62 @@
+[
+  {
+    "input": "I am agree with you.",
+    "target": "I agree with you."
+  },
+  {
+    "input": "She is know the answer.",
+    "target": "She knows the answer."
+  },
+  {
+    "input": "They are understand the problem.",
+    "target": "They understand the problem."
+  },
+  {
+    "input": "I am believe you.",
+    "target": "I believe you."
+  },
+  {
+    "input": "She does not likes coffee.",
+    "target": "She does not like coffee."
+  },
+  {
+    "input": "He can to drive a car.",
+    "target": "He can drive a car."
+  },
+  {
+    "input": "They was happy yesterday.",
+    "target": "They were happy yesterday."
+  },
+  {
+    "input": "I have saw that movie.",
+    "target": "I have seen that movie."
+  },
+  {
+    "input": "We did not went there.",
+    "target": "We did not go there."
+  },
+  {
+    "input": "My friend live near the college.",
+    "target": "My friend lives near the college."
+  },
+  {
+    "input": "She speaks English very well.",
+    "target": "She speaks English very well."
+  },
+  {
+    "input": "I completely disagree with this decision.",
+    "target": "I completely disagree with this decision."
+  },
+  {
+    "input": "The weather is pleasant today.",
+    "target": "The weather is pleasant today."
+  },
+  {
+    "input": "She knows the answer.",
+    "target": "She knows the answer."
+  },
+  {
+    "input": "I am interested in learning English.",
+    "target": "I am interested in learning English."
+  }
+]

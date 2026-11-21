@@ -1,0 +1,17 @@
+input,expected,baseline_prediction,after_training,before_exact,after_exact
+I am agree with you.,I agree with you.,I agree with you.,I agree with you.,True,True
+She is know the answer.,She knows the answer.,She is know the answer.,She knows the answer.,False,True
+They are understand the problem.,They understand the problem.,They understand the problem.,They understand the problem.,True,True
+I am believe you.,I believe you.,I believe you.,I believe you.,True,True
+She does not likes coffee.,She does not like coffee.,She does not like coffee.,She does not like coffee.,True,True
+He can to drive a car.,He can drive a car.,He can drive a car.,He can drive a car.,True,True
+They was happy yesterday.,They were happy yesterday.,They were happy yesterday.,They were happy yesterday.,True,True
+I have saw that movie.,I have seen that movie.,I have seen that movie.,I have seen that movie.,True,True
+We did not went there.,We did not go there.,We did not go there.,We did not go there.,True,True
+My friend live near the college.,My friend lives near the college.,My friend lives near the college.,My friend lives near the college.,True,True
+She speaks English very well.,She speaks English very well.,She speaks English very well.,She speaks English very well.,True,True
+I completely disagree with this decision.,I completely disagree with this decision.,I completely disagree with this decision. I completely disagree with this decision.,I completely disagree with this decision.,False,True
+The weather is pleasant today.,The weather is pleasant today.,The weather is pleasant today.,The weather is pleasant today.,True,True
+She knows the answer.,She knows the answer.,She knows the answer.,She knows the answer.,True,True
+I am interested in learning English.,I am interested in learning English.,I am interested in learning English.,I am interested in learning English.,True,True
+She is a good student.,She is a good student.,She is a good student.,She is a good student.,True,True
