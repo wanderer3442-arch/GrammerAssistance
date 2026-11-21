@@ -1,0 +1,8 @@
+{
+  "test_exact_before": 73.33,
+  "test_exact_after": 78.33,
+  "train_pairs": 5275,
+  "epochs": 2,
+  "lr": 2e-05,
+  "final_train_loss": 0.3663
+}

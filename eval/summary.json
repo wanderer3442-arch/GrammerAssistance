@@ -1,0 +1,22 @@
+{
+  "heldout": {
+    "set": "heldout_300_reviewed_v2",
+    "n": 300,
+    "exact_match_pct": 78.0,
+    "mean_chrf": 96.22,
+    "noop_pct": 37.67,
+    "missed_fix_pct": 17.67,
+    "already_correct_n": 60,
+    "overcorrection_pct": 0.0
+  },
+  "trained": {
+    "set": "trained_15_unique",
+    "n": 15,
+    "exact_match_pct": 100.0,
+    "mean_chrf": 100.0,
+    "noop_pct": 33.33,
+    "missed_fix_pct": 0.0,
+    "already_correct_n": 5,
+    "overcorrection_pct": 0.0
+  }
+}

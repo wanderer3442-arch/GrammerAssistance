@@ -1,0 +1,16 @@
+input,expected,predicted,exact,chrf,already_correct
+I am agree with you.,I agree with you.,I agree with you.,True,100.0,False
+She is know the answer.,She knows the answer.,She knows the answer.,True,100.0,False
+They are understand the problem.,They understand the problem.,They understand the problem.,True,100.0,False
+I am believe you.,I believe you.,I believe you.,True,100.0,False
+She does not likes coffee.,She does not like coffee.,She does not like coffee.,True,100.0,False
+He can to drive a car.,He can drive a car.,He can drive a car.,True,100.0,False
+They was happy yesterday.,They were happy yesterday.,They were happy yesterday.,True,100.0,False
+I have saw that movie.,I have seen that movie.,I have seen that movie.,True,100.0,False
+We did not went there.,We did not go there.,We did not go there.,True,100.0,False
+My friend live near the college.,My friend lives near the college.,My friend lives near the college.,True,100.0,False
+She speaks English very well.,She speaks English very well.,She speaks English very well.,True,100.0,True
+I completely disagree with this decision.,I completely disagree with this decision.,I completely disagree with this decision.,True,100.0,True
+The weather is pleasant today.,The weather is pleasant today.,The weather is pleasant today.,True,100.0,True
+She knows the answer.,She knows the answer.,She knows the answer.,True,100.0,True
+I am interested in learning English.,I am interested in learning English.,I am interested in learning English.,True,100.0,True

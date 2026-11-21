@@ -1,0 +1,301 @@
+input,expected,predicted,exact,chrf,already_correct
+My sister work at a hospital.,My sister works at a hospital.,My sister works at a hospital.,True,100.0,False
+My parents works at a hospital.,My parents work at a hospital.,My parents work at a hospital.,True,100.0,False
+The bus arrive every morning.,The bus arrives every morning.,The bus arrives every morning.,True,100.0,False
+The buses arrives every morning.,The buses arrive every morning.,The buses arrive every morning.,True,100.0,False
+A student need more time.,A student needs more time.,A student needs more time.,True,100.0,False
+The students needs more time.,The students need more time.,The students need more time.,True,100.0,False
+He enjoy reading history books.,He enjoys reading history books.,He enjoys reading history books.,True,100.0,False
+They enjoys reading history books.,They enjoy reading history books.,They enjoy reading history books.,True,100.0,False
+My cousin study computer science.,My cousin studies computer science.,My cousin studies computer science.,True,100.0,False
+My cousins studies computer science.,My cousins study computer science.,My cousins studies computer science.,False,84.59,False
+The shop open at nine.,The shop opens at nine.,The shop opens at nine.,True,100.0,False
+The shops opens at nine.,The shops open at nine.,The shops open at nine.,True,100.0,False
+This machine make a strange noise.,This machine makes a strange noise.,This machine makes a strange noise.,True,100.0,False
+These machines makes a strange noise.,These machines make a strange noise.,These machines make a strange noise.,True,100.0,False
+Her friend teach mathematics.,Her friend teaches mathematics.,Her friend teach mathematics.,False,89.22,False
+Her friends teaches mathematics.,Her friends teach mathematics.,Her friends teach mathematics.,True,100.0,False
+The baby cry every night.,The baby cries every night.,The baby crys every night.,False,84.39,False
+The babies cries every night.,The babies cry every night.,The babies cries every night.,False,80.46,False
+Our neighbour drive to work.,Our neighbour drives to work.,Our neighbour drives to work.,True,100.0,False
+Our neighbours drives to work.,Our neighbours drive to work.,Our neighbours drive to work.,True,100.0,False
+The phone ring during class.,The phone rings during class.,The phone ring during class.,False,89.49,False
+The phones rings during class.,The phones ring during class.,The phones rings during class.,False,87.91,False
+My uncle fix old bicycles.,My uncle fixes old bicycles.,My uncle fixed old bicycles.,False,86.27,False
+My uncles fixes old bicycles.,My uncles fix old bicycles.,My uncles fix old bicycles.,True,100.0,False
+The bird fly over the garden.,The bird flies over the garden.,The bird fly over the garden.,False,85.5,False
+The birds flies over the garden.,The birds fly over the garden.,The birds fly over the garden.,True,100.0,False
+A good teacher explain ideas clearly.,A good teacher explains ideas clearly.,A good teacher explain ideas clearly.,False,92.22,False
+Good teachers explains ideas clearly.,Good teachers explain ideas clearly.,Good teachers explains ideas clearly.,False,90.38,False
+The child wash the dishes.,The child washes the dishes.,The child wash the dishes.,False,87.87,False
+The children washes the dishes.,The children wash the dishes.,The children werehed the dishes.,False,73.24,False
+She carry a notebook to class.,She carries a notebook to class.,She carry a notebook to class.,False,86.02,False
+They carries notebooks to class.,They carry notebooks to class.,They carry notebooks to class.,True,100.0,False
+My brother watch documentaries.,My brother watches documentaries.,My brother watches documentaries.,True,100.0,False
+My brothers watches documentaries.,My brothers watch documentaries.,My brothers watch documentaries.,True,100.0,False
+The farmer grow vegetables.,The farmer grows vegetables.,The farmer grows vegetables.,True,100.0,False
+The farmers grows vegetables.,The farmers grow vegetables.,The farmers grow vegetables.,True,100.0,False
+The driver follow the signs.,The driver follows the signs.,The driver follows the signs.,True,100.0,False
+The drivers follows the signs.,The drivers follow the signs.,The drivers follow the signs.,True,100.0,False
+The student finish the assignment on time.,The student finishes the assignment on time.,The student finishes the assignment on time.,True,100.0,False
+The students finishes the assignment on time.,The students finish the assignment on time.,The students finish the assignment on time.,True,100.0,False
+My aunt bake bread on Sundays.,My aunt bakes bread on Sundays.,My aunt bakes bread on Sundays.,True,100.0,False
+My aunts bakes bread on Sundays.,My aunts bake bread on Sundays.,My aunts bake bread on Sundays.,True,100.0,False
+The computer store large files.,The computer stores large files.,The computer store large files.,False,90.59,False
+The computers stores large files.,The computers store large files.,The computers store large files.,True,100.0,False
+A cat chase the ball.,A cat chases the ball.,A cat chases the ball.,True,100.0,False
+Cats chases the ball.,Cats chase the ball.,Cats chase the ball.,True,100.0,False
+The train stop at this station.,The train stops at this station.,The train stop at this station.,False,90.59,False
+The trains stops at this station.,The trains stop at this station.,The trains stop at this station.,True,100.0,False
+His daughter practise piano daily.,His daughter practises piano daily.,His daughter practises piano daily.,True,100.0,False
+His daughters practises piano daily.,His daughters practise piano daily.,His daughters practise piano daily.,True,100.0,False
+The waiter bring the menu.,The waiter brings the menu.,The waiter brings the menu.,True,100.0,False
+The waiters brings the menu.,The waiters bring the menu.,The waiters bring the menu.,True,100.0,False
+A mechanic check the engine.,A mechanic checks the engine.,A mechanic checks the engine.,True,100.0,False
+Mechanics checks the engine.,Mechanics check the engine.,Mechanics checks the engine.,False,86.96,False
+The nurse help the patient.,The nurse helps the patient.,The nurse helps the patient.,True,100.0,False
+The nurses helps the patient.,The nurses help the patient.,The nurses help the patient.,True,100.0,False
+My friend prefer tea in the morning.,My friend prefers tea in the morning.,My friend prefers tea in the morning.,True,100.0,False
+My friends prefers tea in the morning.,My friends prefer tea in the morning.,My friends prefer tea in the morning.,True,100.0,False
+The gardener water the plants daily.,The gardener waters the plants daily.,The gardener water the plants daily.,False,91.99,False
+The gardeners waters the plants daily.,The gardeners water the plants daily.,The gardeners water the plants daily.,True,100.0,False
+"Yesterday, I go to the library.","Yesterday, I went to the library.","Yesterday, I went to the library.",True,100.0,False
+"Yesterday, She go to the market.","Yesterday, she went to the market.","Yesterday, she went to the market.",True,100.0,False
+"Yesterday, They see a bird.","Yesterday, they saw a bird.","Yesterday, they see a bird.",False,81.63,False
+"Yesterday, He eat lunch.","Yesterday, he ate lunch.","Yesterday, he ate lunch.",True,100.0,False
+"Yesterday, We take the bus.","Yesterday, we took the bus.","Yesterday, we took the bus.",True,100.0,False
+"Yesterday, I write a letter.","Yesterday, I wrote a letter.","Yesterday, I wrote a letter.",True,100.0,False
+"Yesterday, She buy a notebook.","Yesterday, she bought a notebook.","Yesterday, she bought a notebook.",True,100.0,False
+"Yesterday, They come home.","Yesterday, they came home.","Yesterday, they came home.",True,100.0,False
+"Yesterday, He make a cake.","Yesterday, he made a cake.","Yesterday, he made a cake.",True,100.0,False
+"Yesterday, We find the keys.","Yesterday, we found the keys.","Yesterday, we found the keys.",True,100.0,False
+"Yesterday, I meet my friend.","Yesterday, I met my friend.","Yesterday, I met my friend.",True,100.0,False
+"Yesterday, She speak to the teacher.","Yesterday, she spoke to the teacher.","Yesterday, she spoke to the teacher.",True,100.0,False
+"Yesterday, They begin the meeting.","Yesterday, they began the meeting.","Yesterday, they begin the meeting.",False,88.89,False
+"Yesterday, He drive to work.","Yesterday, he drove to work.","Yesterday, he drove to work.",True,100.0,False
+"Yesterday, We choose the blue one.","Yesterday, we chose the blue one.","Yesterday, we chose the blue one.",True,100.0,False
+"Yesterday, I drink some water.","Yesterday, I drank some water.","Yesterday, I drink some water.",False,87.27,False
+"Yesterday, She give me a book.","Yesterday, she gave me a book.","Yesterday, she gave me a book.",True,100.0,False
+"Yesterday, They leave early.","Yesterday, they left early.","Yesterday, they leave early.",False,79.05,False
+"Yesterday, He know the answer.","Yesterday, he knew the answer.","Yesterday, He knows the answer.",False,81.86,False
+"Yesterday, We run in the park.","Yesterday, we ran in the park.","Yesterday, we ran in the park.",True,100.0,False
+"Yesterday, I tell the truth.","Yesterday, I told the truth.","Yesterday, I told the truth.",True,100.0,False
+"Yesterday, She wear a red dress.","Yesterday, she wore a red dress.","Yesterday, she wears a red dress.",False,80.31,False
+"Yesterday, They build a small house.","Yesterday, they built a small house.","Yesterday, they built a small house.",True,100.0,False
+"Yesterday, He catch the ball.","Yesterday, he caught the ball.","Yesterday, he caught the ball.",True,100.0,False
+"Yesterday, We feel happy.","Yesterday, we felt happy.","Yesterday, we feel happy.",False,81.48,False
+"Yesterday, I hear a noise.","Yesterday, I heard a noise.","Yesterday, I hear a noise.",False,88.61,False
+"Yesterday, She keep the receipt.","Yesterday, she kept the receipt.","Yesterday, she kept the receipt.",True,100.0,False
+"Yesterday, They send an email.","Yesterday, they sent an email.","Yesterday, they sent an email.",True,100.0,False
+"Yesterday, He teach the class.","Yesterday, he taught the class.","Yesterday, he taught the class.",True,100.0,False
+"Yesterday, We win the game.","Yesterday, we won the game.","Yesterday, we won the game.",True,100.0,False
+I have went home.,I have gone home.,I have gone home.,True,100.0,False
+She has saw the film.,She has seen the film.,She has seen the film.,True,100.0,False
+They have ate dinner.,They have eaten dinner.,They have ate dinner.,False,74.07,False
+He has wrote a report.,He has written a report.,He has written a report.,True,100.0,False
+We have took the test.,We have taken the test.,We have taken the test.,True,100.0,False
+I have did my homework.,I have done my homework.,I have done my homework.,True,100.0,False
+She has broke the glass.,She has broken the glass.,She has broken the glass.,True,100.0,False
+They have spoke to us.,They have spoken to us.,They have spoken to us.,True,100.0,False
+He has chose a topic.,He has chosen a topic.,He has chosen a topic.,True,100.0,False
+We have gave our answers.,We have given our answers.,We have given our answers.,True,100.0,False
+I have drank enough water.,I have drunk enough water.,I have drank enough water.,False,85.11,False
+She has began the lesson.,She has begun the lesson.,She has begun the lesson.,True,100.0,False
+They have came back.,They have come back.,They have come back.,True,100.0,False
+He has forgot the name.,He has forgotten the name.,He has forgotten the name.,True,100.0,False
+We have knew the truth.,We have known the truth.,We have known the truth.,True,100.0,False
+I have ran five kilometres.,I have run five kilometres.,I have run five kilometres.,True,100.0,False
+She has rode a horse.,She has ridden a horse.,She has rode a horse.,False,71.43,False
+They have sang the song.,They have sung the song.,They have sang the song.,False,83.72,False
+He has threw the ball.,He has thrown the ball.,He has threw the ball.,False,76.99,False
+We have wore those uniforms.,We have worn those uniforms.,We have wore those uniforms.,False,86.27,False
+I have saw that place.,I have seen that place.,I have seen that place.,True,100.0,False
+She has took my pen.,She has taken my pen.,She has taken my pen.,True,100.0,False
+They have wrote the answers.,They have written the answers.,They have written the answers.,True,100.0,False
+He has ate breakfast.,He has eaten breakfast.,He has ate breakfast.,False,74.07,False
+We have went there before.,We have gone there before.,We have gone there before.,True,100.0,False
+I have broke my glasses.,I have broken my glasses.,I have broken my glasses.,True,100.0,False
+She has gave a speech.,She has given a speech.,She has given a speech.,True,100.0,False
+They have did the work.,They have done the work.,They have done the work.,True,100.0,False
+He has spoke clearly.,He has spoken clearly.,He has spoken clearly.,True,100.0,False
+We have chose our seats.,We have chosen our seats.,We have chosen our seats.,True,100.0,False
+She must to finish her work.,She must finish her work.,She must finish her work.,True,100.0,False
+You should to rest today.,You should rest today.,You should rest today.,True,100.0,False
+He might to arrive late.,He might arrive late.,He might arrive late.,True,100.0,False
+We can speaks English.,We can speak English.,We can speak English.,True,100.0,False
+They should goes home.,They should go home.,They should go home.,True,100.0,False
+I will to call you later.,I will call you later.,I will call you later.,True,100.0,False
+She may comes tomorrow.,She may come tomorrow.,She may come tomorrow.,True,100.0,False
+He could to help us.,He could help us.,He could help us.,True,100.0,False
+The team must works together.,The team must work together.,The team must work together.,True,100.0,False
+I would likes some water.,I would like some water.,I would like some water.,True,100.0,False
+The children may plays outside.,The children may play outside.,The children may play outside.,True,100.0,False
+My brother can to repair the bike.,My brother can repair the bike.,My brother can repair the bike.,True,100.0,False
+Our teacher should explains the rule.,Our teacher should explain the rule.,Our teacher should explain the rule.,True,100.0,False
+I might to forget the appointment.,I might forget the appointment.,I might forget the appointment.,True,100.0,False
+The guests will arrives at noon.,The guests will arrive at noon.,The guests will arrive at noon.,True,100.0,False
+She ought to goes home.,She ought to go home.,She ought to go home.,True,100.0,False
+He must studies harder.,He must study harder.,He must study harder.,True,100.0,False
+We could went there yesterday.,We could go there yesterday.,We could go there yesterday.,True,100.0,False
+You would enjoys this book.,You would enjoy this book.,You would enjoy this book.,True,100.0,False
+The driver should checks the mirrors.,The driver should check the mirrors.,The driver should check the mirrors.,True,100.0,False
+She must not to leave yet.,She must not leave yet.,She must not leave yet.,True,100.0,False
+They cannot to enter the room.,They cannot enter the room.,They cannot enter the room.,True,100.0,False
+Can you to help me?,Can you help me?,Can you help me?,True,100.0,False
+Why does he can drive?,Why can he drive?,Why does he can drive?,False,53.15,False
+He is able to speaks French.,He is able to speak French.,He is able to speak French.,True,100.0,False
+She made him to apologize.,She made him apologize.,She made him to apologize.,False,82.24,False
+We let them to enter.,We let them enter.,We let them enter.,True,100.0,False
+I would rather to stay home.,I would rather stay home.,I would rather stay home.,True,100.0,False
+She can sings very well.,She can sing very well.,She can sing very well.,True,100.0,False
+They might arrives after lunch.,They might arrive after lunch.,They might arrive after lunch.,True,100.0,False
+I met a honest person.,I met an honest person.,I met an honest person.,True,100.0,False
+She is a excellent student.,She is an excellent student.,She is an excellent student.,True,100.0,False
+We read a interesting article.,We read an interesting article.,We read an interesting article.,True,100.0,False
+They restored a old building.,They restored an old building.,They restored a old building.,False,89.89,False
+It was a important meeting.,It was an important meeting.,It was an important meeting.,True,100.0,False
+He bought a expensive phone.,He bought an expensive phone.,He bought an expensive phone.,True,100.0,False
+We witnessed a unusual event.,We witnessed an unusual event.,We witnessed an unusual event.,True,100.0,False
+That was a easy question.,That was an easy question.,That was an easy question.,True,100.0,False
+They hired a intelligent assistant.,They hired an intelligent assistant.,They hired an intelligent assistant.,True,100.0,False
+I entered a empty room.,I entered an empty room.,I entered the empty room.,False,76.23,False
+She carried a orange umbrella.,She carried an orange umbrella.,She carried an orange umbrella.,True,100.0,False
+He became a active member.,He became an active member.,He became a active member.,False,88.61,False
+We caught a early train.,We caught an early train.,We caught a early train.,False,87.56,False
+She told a amazing story.,She told an amazing story.,She told an amazing story.,True,100.0,False
+I signed a official document.,I signed an official document.,I signed a official document.,False,89.89,False
+This is an useful tool.,This is a useful tool.,This is an useful tool.,False,83.74,False
+She is an university student.,She is a university student.,She is an university student.,False,87.45,False
+They visited an European country.,They visited a European country.,They visited an European country.,False,89.11,False
+It was an one-day trip.,It was a one-day trip.,It was an one-day trip.,False,83.74,False
+That is an unique idea.,That is a unique idea.,That is an unique idea.,False,83.74,False
+He wore an uniform.,He wore a uniform.,He wore an uniform.,False,79.75,False
+I created an user account.,I created a user account.,I created an user account.,False,85.84,False
+She bought an yellow bag.,She bought a yellow bag.,She bought a yellow bag.,True,100.0,False
+We rented an small house.,We rented a small house.,We rented a small house.,True,100.0,False
+He made an beautiful painting.,He made a beautiful painting.,He made a beautiful painting.,True,100.0,False
+I purchased an computer.,I purchased a computer.,I purchased an computer.,False,84.51,False
+She offered an helpful suggestion.,She offered a helpful suggestion.,She offered an helpful suggestion.,False,89.46,False
+He ate an red apple.,He ate a red apple.,He ate an red apple.,False,80.92,False
+They built an large garden.,They built a large garden.,They built a large garden.,True,100.0,False
+I bought an new notebook.,I bought a new notebook.,I bought a new notebook.,True,100.0,False
+Where you live?,Where do you live?,Where do you live?,True,100.0,False
+What she want?,What does she want?,What does she want?,True,100.0,False
+When they arrive?,When do they arrive?,When did they arrive?,False,76.5,False
+Why he work here?,Why does he work here?,Why does he work here?,True,100.0,False
+Where we should wait?,Where should we wait?,Where should we wait?,True,100.0,False
+What you are doing?,What are you doing?,What are you doing?,True,100.0,False
+Why she is crying?,Why is she crying?,Why is she crying?,True,100.0,False
+Where they are going?,Where are they going?,Where are they going?,True,100.0,False
+When he arrive yesterday?,When did he arrive yesterday?,When did he arrive yesterday?,True,100.0,False
+What she buy yesterday?,What did she buy yesterday?,What did she buy yesterday?,True,100.0,False
+Where your parents live?,Where do your parents live?,Where do your parents live?,True,100.0,False
+Why the machine stop?,Why does the machine stop?,Why does the machine stop?,True,100.0,False
+When the class begin?,When does the class begin?,When does the class begin?,True,100.0,False
+How you solve it yesterday?,How did you solve it yesterday?,How did you solve it yesterday?,True,100.0,False
+Where he put the keys?,Where did he put the keys?,Where did he put the keys?,True,100.0,False
+What they have decided?,What have they decided?,What have they decided?,True,100.0,False
+Why you were late?,Why were you late?,Why did you be late?,False,45.81,False
+Where the children are playing?,Where are the children playing?,Where are the children playing?,True,100.0,False
+How she can solve this?,How can she solve this?,How can she solve this?,True,100.0,False
+What he is reading?,What is he reading?,What is he reading?,True,100.0,False
+When we can start?,When can we start?,When can we start?,True,100.0,False
+Why they were laughing?,Why were they laughing?,Why did they laugh?,False,60.69,False
+Where she has gone?,Where has she gone?,Where has she gone?,True,100.0,False
+What your friend said?,What did your friend say?,What did your friend say?,True,100.0,False
+How this device work?,How does this device work?,How does this device work?,True,100.0,False
+When the train will arrive?,When will the train arrive?,When will the train arrive?,True,100.0,False
+Why he look tired?,Why does he look tired?,Why does he look tired?,True,100.0,False
+Where I should sign?,Where should I sign?,Where should I sign?,True,100.0,False
+What the teacher explained?,What did the teacher explain?,What did the teacher explain?,True,100.0,False
+How they can improve?,How can they improve?,How can they improve?,True,100.0,False
+She is interested on art.,She is interested in art.,She is interested in art.,True,100.0,False
+He is good in mathematics.,He is good at mathematics.,He is good in mathematics.,False,80.85,False
+We arrived the station early.,We arrived at the station early.,We arrived at the station early.,True,100.0,False
+She depends of her parents.,She depends on her parents.,She depends on her parents.,True,100.0,False
+He is afraid from dogs.,He is afraid of dogs.,He is afraid of dogs.,True,100.0,False
+I am waiting you outside.,I am waiting for you outside.,I am waiting you outside.,False,89.41,False
+They discussed about the problem.,They discussed the problem.,They discussed the problem.,True,100.0,False
+I prefer tea than coffee.,I prefer tea to coffee.,I prefer tea than coffee.,False,76.92,False
+She is capable to solve the problem.,She is capable of solving the problem.,She is capable of solving the problem.,True,100.0,False
+He succeeded to pass the exam.,He succeeded in passing the exam.,He succeeded to pass the exam.,False,72.95,False
+She is keen in learning English.,She is keen on learning English.,She is keen in learning English.,False,88.14,False
+He is suffering with a cold.,He is suffering from a cold.,He is suffering from a cold.,True,100.0,False
+I agree your opinion.,I agree with your opinion.,I agree your opinion.,False,86.32,False
+She apologized me for the mistake.,She apologized to me for the mistake.,She apologized me for the mistake.,False,92.94,False
+They are looking the keys.,They are looking for the keys.,They are looking the keys.,False,89.85,False
+I am fond for classical music.,I am fond of classical music.,I am fond of classical music.,True,100.0,False
+He complained for the noise.,He complained about the noise.,He complained about the noise.,True,100.0,False
+She is married with a doctor.,She is married to a doctor.,She is married with a doctor.,False,77.27,False
+We reached to the hotel late.,We reached the hotel late.,We reached the hotel late.,True,100.0,False
+He is familiar to this process.,He is familiar with this process.,He is familiar with this process.,True,100.0,False
+They prevented him to leave.,They prevented him from leaving.,They prevented him from leaving.,True,100.0,False
+She insisted to pay the bill.,She insisted on paying the bill.,She insisted to pay the bill.,False,73.19,False
+I am responsible of this task.,I am responsible for this task.,I am responsible for this task.,True,100.0,False
+He is different than his brother.,He is different from his brother.,He is different than his brother.,False,78.69,False
+She is worried for the result.,She is worried about the result.,She is worried about the result.,True,100.0,False
+They congratulated her for her success.,They congratulated her on her success.,They congratulated her for her success.,False,85.86,False
+She apologized him for being late.,She apologized to him for being late.,She apologized him for being late.,False,92.94,False
+We are looking forward to meet you.,We are looking forward to meeting you.,We are looking forward to meeting you.,True,100.0,False
+She accused him for lying.,She accused him of lying.,She accused him of lying.,True,100.0,False
+I am used to wake up early.,I am used to waking up early.,I am used to wake up early.,False,84.34,False
+She speaks English very well.,She speaks English very well.,She speaks English very well.,True,100.0,True
+I completely disagree with this decision.,I completely disagree with this decision.,I completely disagree with this decision.,True,100.0,True
+The weather is pleasant today.,The weather is pleasant today.,The weather is pleasant today.,True,100.0,True
+She knows the answer.,She knows the answer.,She knows the answer.,True,100.0,True
+I am interested in learning English.,I am interested in learning English.,I am interested in learning English.,True,100.0,True
+They arrived early for the meeting.,They arrived early for the meeting.,They arrived early for the meeting.,True,100.0,True
+My sister enjoys reading novels.,My sister enjoys reading novels.,My sister enjoys reading novels.,True,100.0,True
+We have finished our homework.,We have finished our homework.,We have finished our homework.,True,100.0,True
+The children are playing outside.,The children are playing outside.,The children are playing outside.,True,100.0,True
+He usually drinks coffee in the morning.,He usually drinks coffee in the morning.,He usually drinks coffee in the morning.,True,100.0,True
+I agree with your suggestion.,I agree with your suggestion.,I agree with your suggestion.,True,100.0,True
+The library closes at six o'clock.,The library closes at six o'clock.,The library closes at six o'clock.,True,100.0,True
+Our team won the final match.,Our team won the final match.,Our team won the final match.,True,100.0,True
+She has been working here for two years.,She has been working here for two years.,She has been working here for two years.,True,100.0,True
+The train arrived on time.,The train arrived on time.,The train arrived on time.,True,100.0,True
+I will call you tomorrow.,I will call you tomorrow.,I will call you tomorrow.,True,100.0,True
+They live in a small apartment.,They live in a small apartment.,They live in a small apartment.,True,100.0,True
+He carefully opened the package.,He carefully opened the package.,He carefully opened the package.,True,100.0,True
+We enjoyed the concert last night.,We enjoyed the concert last night.,We enjoyed the concert last night.,True,100.0,True
+The book belongs to my friend.,The book belongs to my friend.,The book belongs to my friend.,True,100.0,True
+Please close the window.,Please close the window.,Please close the window.,True,100.0,True
+My parents are visiting us this weekend.,My parents are visiting us this weekend.,My parents are visiting us this weekend.,True,100.0,True
+The students completed the assignment.,The students completed the assignment.,The students completed the assignment.,True,100.0,True
+I have never visited that city.,I have never visited that city.,I have never visited that city.,True,100.0,True
+She can speak three languages.,She can speak three languages.,She can speak three languages.,True,100.0,True
+We were happy with the result.,We were happy with the result.,We were happy with the result.,True,100.0,True
+He bought a new laptop yesterday.,He bought a new laptop yesterday.,He bought a new laptop yesterday.,True,100.0,True
+The coffee tastes delicious.,The coffee tastes delicious.,The coffee tastes delicious.,True,100.0,True
+They are planning a holiday.,They are planning a holiday.,They are planning a holiday.,True,100.0,True
+I left my keys on the table.,I left my keys on the table.,I left my keys on the table.,True,100.0,True
+The baby is sleeping peacefully.,The baby is sleeping peacefully.,The baby is sleeping peacefully.,True,100.0,True
+She wrote a letter to her cousin.,She wrote a letter to her cousin.,She wrote a letter to her cousin.,True,100.0,True
+We need more time to finish.,We need more time to finish.,We need more time to finish.,True,100.0,True
+The museum opens at nine.,The museum opens at nine.,The museum opens at nine.,True,100.0,True
+He has already eaten lunch.,He has already eaten lunch.,He has already eaten lunch.,True,100.0,True
+I would like a glass of water.,I would like a glass of water.,I would like a glass of water.,True,100.0,True
+The meeting starts in ten minutes.,The meeting starts in ten minutes.,The meeting starts in ten minutes.,True,100.0,True
+Our teacher explained the lesson clearly.,Our teacher explained the lesson clearly.,Our teacher explained the lesson clearly.,True,100.0,True
+She gave me a useful suggestion.,She gave me a useful suggestion.,She gave me a useful suggestion.,True,100.0,True
+They have taken the wrong bus.,They have taken the wrong bus.,They have taken the wrong bus.,True,100.0,True
+I know what you mean.,I know what you mean.,I know what you mean.,True,100.0,True
+The garden looks beautiful in spring.,The garden looks beautiful in spring.,The garden looks beautiful in spring.,True,100.0,True
+He did not understand the question.,He did not understand the question.,He did not understand the question.,True,100.0,True
+We have seen that movie before.,We have seen that movie before.,We have seen that movie before.,True,100.0,True
+The road was closed because of rain.,The road was closed because of rain.,The road was closed because of rain.,True,100.0,True
+She is good at mathematics.,She is good at mathematics.,She is good at mathematics.,True,100.0,True
+Where are you going?,Where are you going?,Where are you going?,True,100.0,True
+What are you doing now?,What are you doing now?,What are you doing now?,True,100.0,True
+Why is she crying?,Why is she crying?,Why is she crying?,True,100.0,True
+The manager works on Fridays.,The manager works on Fridays.,The manager works on Fridays.,True,100.0,True
+These machines make too much noise.,These machines make too much noise.,These machines make too much noise.,True,100.0,True
+He went home after class.,He went home after class.,He went home after class.,True,100.0,True
+She is an honest person.,She is an honest person.,She is an honest person.,True,100.0,True
+It was a one-day trip.,It was a one-day trip.,It was a one-day trip.,True,100.0,True
+They understand the instructions.,They understand the instructions.,They understand the instructions.,True,100.0,True
+I have eaten breakfast already.,I have eaten breakfast already.,I have eaten breakfast already.,True,100.0,True
+He can drive a car.,He can drive a car.,He can drive a car.,True,100.0,True
+We did not go there.,We did not go there.,We did not go there.,True,100.0,True
+My friend lives near the college.,My friend lives near the college.,My friend lives near the college.,True,100.0,True
+I believe you.,I believe you.,I believe you.,True,100.0,True
